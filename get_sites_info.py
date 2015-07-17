@@ -109,10 +109,10 @@ def get_info(urls):
 	f.write(j)
 	f.close()
 
-urls = []
-for url in manual_data.sameid_links.keys():
-	if url not in loaded_urls:
-		urls.append(url)
+urls = ['sochiworld.com']
+#for url in manual_data.sameid_links.keys():
+	#if url not in loaded_urls:
+		#urls.append(url)
 
 get_info(urls)
 
